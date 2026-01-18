@@ -1,0 +1,20 @@
+{
+  "target_root": "E:/ai_cache",
+  "items": {
+    "huggingface": {
+      "env": ["HF_HOME", "HUGGINGFACE_HUB_CACHE"],
+      "src": "%USERPROFILE%/.cache/huggingface",
+      "dst": "huggingface"
+    },
+    "modelscope": {
+      "env": ["MODELSCOPE_CACHE"],
+      "src": "%USERPROFILE%/.cache/modelscope",
+      "dst": "modelscope"
+    },
+    "torch": {
+      "env": ["TORCH_HOME"],
+      "src": "%USERPROFILE%/.cache/torch",
+      "dst": "torch"
+    }
+  }
+}
